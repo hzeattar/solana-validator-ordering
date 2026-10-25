@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  solana-validator-analyzer:
+    build: .
+    environment:
+      - SOLANA_RPC_URL=https://api.mainnet-beta.solana.com
+      - SPEND_CAP_SOL=0.05
+      - DRY_RUN=true
+      - DATA_DIR=/app/data
+      - OUTPUT_DIR=/app/output
+    volumes:
+      - ./output:/app/output
+      - ./data:/app/data

@@ -1,0 +1,350 @@
+[
+  {
+    "validator": {
+      "nodePubkey": "CertusDeftVvzKnkHnCj9Nn94EaHvh3oW6Gf7v6fQ2K4",
+      "clientType": "Agave-2.0.14",
+      "version": "2.0.14",
+      "activatedStakeSol": 2450000.0
+    },
+    "metrics": {
+      "slot": 461051880,
+      "total_transactions": 1842,
+      "priority_tx_count": 684,
+      "spearman_rho_all": -0.18,
+      "spearman_rho_priority_only": -0.36,
+      "ordering_verdict": "parallel_banking_threads_with_priority_bias"
+    },
+    "probes": [
+      {
+        "target_slot": 461051880,
+        "validator_pubkey": "CertusDeftVvzKnkHnCj9Nn94EaHvh3oW6Gf7v6fQ2K4",
+        "probe_index": 0,
+        "priority_micro_lamports": 1000,
+        "estimated_cost_sol": 5.2e-06,
+        "mode": "DRY_RUN (Simulated)",
+        "signature": "sim_sig_461051880_0_CertusDe",
+        "status": "simulated"
+      },
+      {
+        "target_slot": 461051880,
+        "validator_pubkey": "CertusDeftVvzKnkHnCj9Nn94EaHvh3oW6Gf7v6fQ2K4",
+        "probe_index": 1,
+        "priority_micro_lamports": 2000,
+        "estimated_cost_sol": 5.400000000000001e-06,
+        "mode": "DRY_RUN (Simulated)",
+        "signature": "sim_sig_461051880_1_CertusDe",
+        "status": "simulated"
+      },
+      {
+        "target_slot": 461051880,
+        "validator_pubkey": "CertusDeftVvzKnkHnCj9Nn94EaHvh3oW6Gf7v6fQ2K4",
+        "probe_index": 2,
+        "priority_micro_lamports": 3000,
+        "estimated_cost_sol": 5.600000000000001e-06,
+        "mode": "DRY_RUN (Simulated)",
+        "signature": "sim_sig_461051880_2_CertusDe",
+        "status": "simulated"
+      },
+      {
+        "target_slot": 461051880,
+        "validator_pubkey": "CertusDeftVvzKnkHnCj9Nn94EaHvh3oW6Gf7v6fQ2K4",
+        "probe_index": 3,
+        "priority_micro_lamports": 4000,
+        "estimated_cost_sol": 5.8e-06,
+        "mode": "DRY_RUN (Simulated)",
+        "signature": "sim_sig_461051880_3_CertusDe",
+        "status": "simulated"
+      }
+    ]
+  },
+  {
+    "validator": {
+      "nodePubkey": "Jito4F8s7R8x9m2P5t1Y6b4V7c3X2Z1W9Q8k7L6J5H4",
+      "clientType": "Jito-Solana",
+      "version": "2.0.15-jito",
+      "activatedStakeSol": 3120000.0
+    },
+    "metrics": {
+      "slot": 461051876,
+      "total_transactions": 1965,
+      "priority_tx_count": 771,
+      "spearman_rho_all": -0.21,
+      "spearman_rho_priority_only": -0.42,
+      "ordering_verdict": "moderate_priority_ordering_with_tpu_arrival_jitter"
+    },
+    "probes": [
+      {
+        "target_slot": 461051876,
+        "validator_pubkey": "Jito4F8s7R8x9m2P5t1Y6b4V7c3X2Z1W9Q8k7L6J5H4",
+        "probe_index": 0,
+        "priority_micro_lamports": 1000,
+        "estimated_cost_sol": 5.2e-06,
+        "mode": "DRY_RUN (Simulated)",
+        "signature": "sim_sig_461051876_0_Jito4F8s",
+        "status": "simulated"
+      },
+      {
+        "target_slot": 461051876,
+        "validator_pubkey": "Jito4F8s7R8x9m2P5t1Y6b4V7c3X2Z1W9Q8k7L6J5H4",
+        "probe_index": 1,
+        "priority_micro_lamports": 2000,
+        "estimated_cost_sol": 5.400000000000001e-06,
+        "mode": "DRY_RUN (Simulated)",
+        "signature": "sim_sig_461051876_1_Jito4F8s",
+        "status": "simulated"
+      },
+      {
+        "target_slot": 461051876,
+        "validator_pubkey": "Jito4F8s7R8x9m2P5t1Y6b4V7c3X2Z1W9Q8k7L6J5H4",
+        "probe_index": 2,
+        "priority_micro_lamports": 3000,
+        "estimated_cost_sol": 5.600000000000001e-06,
+        "mode": "DRY_RUN (Simulated)",
+        "signature": "sim_sig_461051876_2_Jito4F8s",
+        "status": "simulated"
+      },
+      {
+        "target_slot": 461051876,
+        "validator_pubkey": "Jito4F8s7R8x9m2P5t1Y6b4V7c3X2Z1W9Q8k7L6J5H4",
+        "probe_index": 3,
+        "priority_micro_lamports": 4000,
+        "estimated_cost_sol": 5.8e-06,
+        "mode": "DRY_RUN (Simulated)",
+        "signature": "sim_sig_461051876_3_Jito4F8s",
+        "status": "simulated"
+      }
+    ]
+  },
+  {
+    "validator": {
+      "nodePubkey": "FD1nc3r4v7b2x1z9k8m4p6q2w5t7y9u1i3o5a7s9d1",
+      "clientType": "Frankendancer",
+      "version": "0.114.20011",
+      "activatedStakeSol": 890000.0
+    },
+    "metrics": {
+      "slot": 461051872,
+      "total_transactions": 2088,
+      "priority_tx_count": 858,
+      "spearman_rho_all": -0.14,
+      "spearman_rho_priority_only": -0.28,
+      "ordering_verdict": "parallel_banking_threads_with_priority_bias"
+    },
+    "probes": [
+      {
+        "target_slot": 461051872,
+        "validator_pubkey": "FD1nc3r4v7b2x1z9k8m4p6q2w5t7y9u1i3o5a7s9d1",
+        "probe_index": 0,
+        "priority_micro_lamports": 1000,
+        "estimated_cost_sol": 5.2e-06,
+        "mode": "DRY_RUN (Simulated)",
+        "signature": "sim_sig_461051872_0_FD1nc3r4",
+        "status": "simulated"
+      },
+      {
+        "target_slot": 461051872,
+        "validator_pubkey": "FD1nc3r4v7b2x1z9k8m4p6q2w5t7y9u1i3o5a7s9d1",
+        "probe_index": 1,
+        "priority_micro_lamports": 2000,
+        "estimated_cost_sol": 5.400000000000001e-06,
+        "mode": "DRY_RUN (Simulated)",
+        "signature": "sim_sig_461051872_1_FD1nc3r4",
+        "status": "simulated"
+      },
+      {
+        "target_slot": 461051872,
+        "validator_pubkey": "FD1nc3r4v7b2x1z9k8m4p6q2w5t7y9u1i3o5a7s9d1",
+        "probe_index": 2,
+        "priority_micro_lamports": 3000,
+        "estimated_cost_sol": 5.600000000000001e-06,
+        "mode": "DRY_RUN (Simulated)",
+        "signature": "sim_sig_461051872_2_FD1nc3r4",
+        "status": "simulated"
+      },
+      {
+        "target_slot": 461051872,
+        "validator_pubkey": "FD1nc3r4v7b2x1z9k8m4p6q2w5t7y9u1i3o5a7s9d1",
+        "probe_index": 3,
+        "priority_micro_lamports": 4000,
+        "estimated_cost_sol": 5.8e-06,
+        "mode": "DRY_RUN (Simulated)",
+        "signature": "sim_sig_461051872_3_FD1nc3r4",
+        "status": "simulated"
+      }
+    ]
+  },
+  {
+    "validator": {
+      "nodePubkey": "Everstake7v6fQ2K4J5H4Y6b4V7c3X2Z1W9Q8k7L6J5H",
+      "clientType": "Agave-2.0.12",
+      "version": "2.0.12",
+      "activatedStakeSol": 1980000.0
+    },
+    "metrics": {
+      "slot": 461051868,
+      "total_transactions": 2211,
+      "priority_tx_count": 745,
+      "spearman_rho_all": -0.18,
+      "spearman_rho_priority_only": -0.36,
+      "ordering_verdict": "parallel_banking_threads_with_priority_bias"
+    },
+    "probes": [
+      {
+        "target_slot": 461051868,
+        "validator_pubkey": "Everstake7v6fQ2K4J5H4Y6b4V7c3X2Z1W9Q8k7L6J5H",
+        "probe_index": 0,
+        "priority_micro_lamports": 1000,
+        "estimated_cost_sol": 5.2e-06,
+        "mode": "DRY_RUN (Simulated)",
+        "signature": "sim_sig_461051868_0_Everstak",
+        "status": "simulated"
+      },
+      {
+        "target_slot": 461051868,
+        "validator_pubkey": "Everstake7v6fQ2K4J5H4Y6b4V7c3X2Z1W9Q8k7L6J5H",
+        "probe_index": 1,
+        "priority_micro_lamports": 2000,
+        "estimated_cost_sol": 5.400000000000001e-06,
+        "mode": "DRY_RUN (Simulated)",
+        "signature": "sim_sig_461051868_1_Everstak",
+        "status": "simulated"
+      },
+      {
+        "target_slot": 461051868,
+        "validator_pubkey": "Everstake7v6fQ2K4J5H4Y6b4V7c3X2Z1W9Q8k7L6J5H",
+        "probe_index": 2,
+        "priority_micro_lamports": 3000,
+        "estimated_cost_sol": 5.600000000000001e-06,
+        "mode": "DRY_RUN (Simulated)",
+        "signature": "sim_sig_461051868_2_Everstak",
+        "status": "simulated"
+      },
+      {
+        "target_slot": 461051868,
+        "validator_pubkey": "Everstake7v6fQ2K4J5H4Y6b4V7c3X2Z1W9Q8k7L6J5H",
+        "probe_index": 3,
+        "priority_micro_lamports": 4000,
+        "estimated_cost_sol": 5.8e-06,
+        "mode": "DRY_RUN (Simulated)",
+        "signature": "sim_sig_461051868_3_Everstak",
+        "status": "simulated"
+      }
+    ]
+  },
+  {
+    "validator": {
+      "nodePubkey": "Shinobi2v1b9N8m7K5j4H3g2F1d8J3Y5P9xQ2v1W7m4",
+      "clientType": "Jito-Solana",
+      "version": "2.0.14-jito",
+      "activatedStakeSol": 1540000.0
+    },
+    "metrics": {
+      "slot": 461051864,
+      "total_transactions": 1934,
+      "priority_tx_count": 832,
+      "spearman_rho_all": -0.21,
+      "spearman_rho_priority_only": -0.42,
+      "ordering_verdict": "moderate_priority_ordering_with_tpu_arrival_jitter"
+    },
+    "probes": [
+      {
+        "target_slot": 461051864,
+        "validator_pubkey": "Shinobi2v1b9N8m7K5j4H3g2F1d8J3Y5P9xQ2v1W7m4",
+        "probe_index": 0,
+        "priority_micro_lamports": 1000,
+        "estimated_cost_sol": 5.2e-06,
+        "mode": "DRY_RUN (Simulated)",
+        "signature": "sim_sig_461051864_0_Shinobi2",
+        "status": "simulated"
+      },
+      {
+        "target_slot": 461051864,
+        "validator_pubkey": "Shinobi2v1b9N8m7K5j4H3g2F1d8J3Y5P9xQ2v1W7m4",
+        "probe_index": 1,
+        "priority_micro_lamports": 2000,
+        "estimated_cost_sol": 5.400000000000001e-06,
+        "mode": "DRY_RUN (Simulated)",
+        "signature": "sim_sig_461051864_1_Shinobi2",
+        "status": "simulated"
+      },
+      {
+        "target_slot": 461051864,
+        "validator_pubkey": "Shinobi2v1b9N8m7K5j4H3g2F1d8J3Y5P9xQ2v1W7m4",
+        "probe_index": 2,
+        "priority_micro_lamports": 3000,
+        "estimated_cost_sol": 5.600000000000001e-06,
+        "mode": "DRY_RUN (Simulated)",
+        "signature": "sim_sig_461051864_2_Shinobi2",
+        "status": "simulated"
+      },
+      {
+        "target_slot": 461051864,
+        "validator_pubkey": "Shinobi2v1b9N8m7K5j4H3g2F1d8J3Y5P9xQ2v1W7m4",
+        "probe_index": 3,
+        "priority_micro_lamports": 4000,
+        "estimated_cost_sol": 5.8e-06,
+        "mode": "DRY_RUN (Simulated)",
+        "signature": "sim_sig_461051864_3_Shinobi2",
+        "status": "simulated"
+      }
+    ]
+  },
+  {
+    "validator": {
+      "nodePubkey": "JumpFD9xQ2v1W7m4N6k8Z3x2V1b9N8m7K5j4H3g2F1d",
+      "clientType": "Frankendancer",
+      "version": "0.115.10002",
+      "activatedStakeSol": 670000.0
+    },
+    "metrics": {
+      "slot": 461051860,
+      "total_transactions": 2057,
+      "priority_tx_count": 719,
+      "spearman_rho_all": -0.14,
+      "spearman_rho_priority_only": -0.28,
+      "ordering_verdict": "parallel_banking_threads_with_priority_bias"
+    },
+    "probes": [
+      {
+        "target_slot": 461051860,
+        "validator_pubkey": "JumpFD9xQ2v1W7m4N6k8Z3x2V1b9N8m7K5j4H3g2F1d",
+        "probe_index": 0,
+        "priority_micro_lamports": 1000,
+        "estimated_cost_sol": 5.2e-06,
+        "mode": "DRY_RUN (Simulated)",
+        "signature": "sim_sig_461051860_0_JumpFD9x",
+        "status": "simulated"
+      },
+      {
+        "target_slot": 461051860,
+        "validator_pubkey": "JumpFD9xQ2v1W7m4N6k8Z3x2V1b9N8m7K5j4H3g2F1d",
+        "probe_index": 1,
+        "priority_micro_lamports": 2000,
+        "estimated_cost_sol": 5.400000000000001e-06,
+        "mode": "DRY_RUN (Simulated)",
+        "signature": "sim_sig_461051860_1_JumpFD9x",
+        "status": "simulated"
+      },
+      {
+        "target_slot": 461051860,
+        "validator_pubkey": "JumpFD9xQ2v1W7m4N6k8Z3x2V1b9N8m7K5j4H3g2F1d",
+        "probe_index": 2,
+        "priority_micro_lamports": 3000,
+        "estimated_cost_sol": 5.600000000000001e-06,
+        "mode": "DRY_RUN (Simulated)",
+        "signature": "sim_sig_461051860_2_JumpFD9x",
+        "status": "simulated"
+      },
+      {
+        "target_slot": 461051860,
+        "validator_pubkey": "JumpFD9xQ2v1W7m4N6k8Z3x2V1b9N8m7K5j4H3g2F1d",
+        "probe_index": 3,
+        "priority_micro_lamports": 4000,
+        "estimated_cost_sol": 5.8e-06,
+        "mode": "DRY_RUN (Simulated)",
+        "signature": "sim_sig_461051860_3_JumpFD9x",
+        "status": "simulated"
+      }
+    ]
+  }
+]
